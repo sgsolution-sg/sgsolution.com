@@ -41,11 +41,11 @@
   </script>
   <!-- Header with Logo -->
   <header class="bg-blue-900 text-white py-6">
-    <div class="container mx-auto flex flex-col items-center">
-      <img src="logo.jpeg" alt="SG Solution Logo" class="w-40 h-40 mb-4 rounded-full border-4 border-white shadow-lg">
-      <h1 class="text-3xl font-bold">Khidmat SSM Mudah & Pantas</h1>
-      <p class="text-lg mt-2">Bersama SG Solution</p>
-    </div>
+  <div class="container mx-auto flex flex-col items-center">
+    <img src="logo.jpeg" alt="SG Solution Logo" class="w-24 h-24 mb-4 rounded-full border-4 border-white shadow-lg animate__animated animate__bounce">
+    <h1 class="text-3xl font-bold animate__animated animate__fadeInDown">Khidmat SSM Mudah & Pantas</h1>
+    <p class="text-lg mt-2 animate__animated animate__fadeInUp">Bersama SG Solution</p>
+  </div>
   </header>
 
   <!-- Hero Section -->
