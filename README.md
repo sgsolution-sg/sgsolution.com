@@ -1,8 +1,10 @@
 <html lang="ms">
 <head>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Khidmat SSM Mudah & Pantas | SG Solution</title>
+  <title>SG Solution</title>
+    <title>Khidmat SSM Mudah & Pantas</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,39 +14,19 @@
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 text-gray-800">
-  <div class="text-right p-4">
-    <button onclick="switchLanguage('ms')" class="bg-blue-500 text-white px-3 py-1 rounded mr-2">BM</button>
-    <button onclick="switchLanguage('en')" class="bg-gray-500 text-white px-3 py-1 rounded">EN</button>
-  </div>
+
+  
    <div class="container mx-auto p-6">
-    <h1 id="title" class="text-2xl font-bold text-center mb-6">Khidmat SSM Mudah & Pantas</h1>
+    <h1 id="title" class="text-2xl font-bold text-center mb-6">SG Solution - Khidmat SSM Mudah & Pantas</h1>
     <p id="description" class="text-center text-lg">Kami menyediakan perkhidmatan SSM yang cepat dan dipercayai.</p>
   </div>
-
-  <script>
-    const translations = {
-      ms: {
-        title: "Khidmat SSM Mudah & Pantas",
-        description: "Kami menyediakan perkhidmatan SSM yang cepat dan dipercayai."
-      },
-      en: {
-        title: "Fast & Easy SSM Services",
-        description: "We provide fast and reliable SSM services."
-      }
-    };
-
-    function switchLanguage(lang) {
-      document.getElementById('title').innerText = translations[lang].title;
-      document.getElementById('description').innerText = translations[lang].description;
-    }
-  </script>
   <!-- Header with Logo -->
   <header class="bg-blue-900 text-white py-6">
+  
   <div class="container mx-auto flex flex-col items-center">
-    <img src="logo.jpeg" alt="SG Solution Logo" class="w-24 h-24 mb-4 rounded-full border-4 border-white shadow-lg animate__animated animate__bounce">
-    <h1 class="text-3xl font-bold animate__animated animate__fadeInDown">Khidmat SSM Mudah & Pantas</h1>
-    <p class="text-lg mt-2 animate__animated animate__fadeInUp">Bersama SG Solution</p>
+    <img src="logo.jpeg" alt="SG Solution Logo" class="w-40 h-40 mb-4 rounded-full border-4 border-white shadow-lg animate__animated animate__bounce">
+    <h1 class="text-3xl font-bold animate__animated animate__fadeInDown">SG Solution</h1>
+    <p class="text-lg mt-2 animate__animated animate__fadeInUp">Khidmat SSM Mudah & Pantas</p>
   </div>
   </header>
 
@@ -73,25 +55,25 @@
       </a>
 
       <!-- Pembaharuan SSM -->
-      <a href="https://ssm.com.my/renew" target="_blank" class="bg-white p-6 rounded-xl shadow hover:shadow-lg text-center transition duration-300 transform hover:-translate-y-1 hover:scale-105">
+      <a href="https://form.jotform.com/251622568799069" target="_blank" class="bg-white p-6 rounded-xl shadow hover:shadow-lg text-center transition duration-300 transform hover:-translate-y-1 hover:scale-105">
         <i class="fas fa-sync-alt text-green-500 text-3xl mb-3"></i>
         <p class="font-medium mt-2">✅ Pembaharuan SSM</p>
       </a>
 
       <!-- Kemaskini Maklumat -->
-      <a href="https://ssm.com.my/update" target="_blank" class="bg-white p-6 rounded-xl shadow hover:shadow-lg text-center transition duration-300 transform hover:-translate-y-1 hover:scale-105">
+      <a href="https://form.jotform.com/251621908961057" target="_blank" class="bg-white p-6 rounded-xl shadow hover:shadow-lg text-center transition duration-300 transform hover:-translate-y-1 hover:scale-105">
         <i class="fas fa-edit text-yellow-500 text-3xl mb-3"></i>
         <p class="font-medium mt-2">✅ Kemaskini Maklumat Perniagaan</p>
       </a>
 
       <!-- Permintaan Dokumen -->
-      <a href="https://ssm.com.my/documents" target="_blank" class="bg-white p-6 rounded-xl shadow hover:shadow-lg text-center transition duration-300 transform hover:-translate-y-1 hover:scale-105">
+      <a href="https://form.jotform.com/251621908961057" target="_blank" class="bg-white p-6 rounded-xl shadow hover:shadow-lg text-center transition duration-300 transform hover:-translate-y-1 hover:scale-105">
         <i class="fas fa-file-download text-purple-500 text-3xl mb-3"></i>
         <p class="font-medium mt-2">✅ Permintaan Dokumen Rasmi</p>
       </a>
 
       <!-- Penutupan Perniagaan -->
-      <a href="https://ssm.com.my/close" target="_blank" class="bg-white p-6 rounded-xl shadow hover:shadow-lg text-center transition duration-300 transform hover:-translate-y-1 hover:scale-105">
+      <a href="https://form.jotform.com/251622631129047" target="_blank" class="bg-white p-6 rounded-xl shadow hover:shadow-lg text-center transition duration-300 transform hover:-translate-y-1 hover:scale-105">
         <i class="fas fa-times-circle text-red-500 text-3xl mb-3"></i>
         <p class="font-medium mt-2">✅ Penutupan Perniagaan</p>
       </a>
@@ -99,7 +81,6 @@
     </div>
   </div>
 </section>
-
 
   <!-- Contact & WhatsApp -->
   <section class="py-10 bg-blue-900 text-white text-center">
