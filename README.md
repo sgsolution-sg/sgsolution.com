@@ -13,7 +13,32 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 text-gray-800">
+  <div class="text-right p-4">
+    <button onclick="switchLanguage('ms')" class="bg-blue-500 text-white px-3 py-1 rounded mr-2">BM</button>
+    <button onclick="switchLanguage('en')" class="bg-gray-500 text-white px-3 py-1 rounded">EN</button>
+  </div>
+   <div class="container mx-auto p-6">
+    <h1 id="title" class="text-2xl font-bold text-center mb-6">Khidmat SSM Mudah & Pantas</h1>
+    <p id="description" class="text-center text-lg">Kami menyediakan perkhidmatan SSM yang cepat dan dipercayai.</p>
+  </div>
 
+  <script>
+    const translations = {
+      ms: {
+        title: "Khidmat SSM Mudah & Pantas",
+        description: "Kami menyediakan perkhidmatan SSM yang cepat dan dipercayai."
+      },
+      en: {
+        title: "Fast & Easy SSM Services",
+        description: "We provide fast and reliable SSM services."
+      }
+    };
+
+    function switchLanguage(lang) {
+      document.getElementById('title').innerText = translations[lang].title;
+      document.getElementById('description').innerText = translations[lang].description;
+    }
+  </script>
   <!-- Header with Logo -->
   <header class="bg-blue-900 text-white py-6">
     <div class="container mx-auto flex flex-col items-center">
