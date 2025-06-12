@@ -1,6 +1,3 @@
-# HTML content updated with Malay translation, contact info, WhatsApp button, and logo
-html_content = """
-<!DOCTYPE html>
 <html lang="ms">
 <head>
   <meta charset="UTF-8" />
@@ -59,17 +56,6 @@ html_content = """
   <footer class="py-4 bg-gray-800 text-center text-white text-sm">
     &copy; 2025 SG Solution. Semua hak cipta terpelihara.
   </footer>
+
 </body>
 </html>
-"""
-
-# Save updated HTML file
-html_path = os.path.join(site_dir, "index.html")
-with open(html_path, "w") as file:
-    file.write(html_content.strip())
-
-# Zip the folder
-zip_path = "/mnt/data/ssm_website_updated.zip"
-shutil.make_archive("/mnt/data/ssm_website_updated", 'zip', site_dir)
-
-zip_path
