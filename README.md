@@ -4,6 +4,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Khidmat SSM Mudah & Pantas | SG Solution</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SG Solution - Khidmat SSM Mudah & Pantas</title>
+  <!-- Include Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 text-gray-800">
 
@@ -80,6 +87,9 @@
       </a>
     </div>
   </section>
+    <script
+    src="https://cdn.jotfor.ms/agent/embedjs/01976268b8927dceb942914e3dce9e79dd89/embed.js?skipWelcome=1&maximizable=1">
+  </script>
 
   <!-- Footer -->
   <footer class="py-4 bg-gray-800 text-center text-white text-sm">
