@@ -67,7 +67,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
       <!-- Pendaftaran SSM Baharu -->
-      <a href="https://ssm.com.my/daftar" target="_blank" class="bg-white p-6 rounded-xl shadow hover:shadow-lg text-center transition duration-300 transform hover:-translate-y-1 hover:scale-105">
+      <a href="https://form.jotform.com/251620926021043" target="_blank" class="bg-white p-6 rounded-xl shadow hover:shadow-lg text-center transition duration-300 transform hover:-translate-y-1 hover:scale-105">
         <i class="fas fa-file-alt text-blue-500 text-3xl mb-3"></i>
         <p class="font-medium mt-2">✅ Pendaftaran SSM Baharu</p>
       </a>
